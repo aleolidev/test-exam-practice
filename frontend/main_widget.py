@@ -1,7 +1,8 @@
-from PyQt5.QtWidgets import QMainWindow, QAction, QTabBar, QTabWidget
+from PyQt5.QtWidgets import QMainWindow, QAction, QFileDialog
+from PyQt5.QtCore import QSettings
 
 from frontend.central_widget import CentralWidget
-
+from frontend.main_tests import ModeSelector
 
 class MainWidget(QMainWindow):
     
@@ -42,4 +43,12 @@ class MainWidget(QMainWindow):
         self.setCentralWidget(self.central_widget)
     
     def connect_signals(self):
-        self.load_dataset.triggered.connect(lambda: self.central_widget.add_dataset_options())
+        self.load_dataset.triggered.connect(lambda: self.add_dataset_options())
+
+    def add_dataset_options(self):
+        self.settings = QSettings("settings.ini", QSettings.IniFormat)
+        self.file, _ = QFileDialog.getOpenFileName(self, 'Open file', self.settings.value("dataset"), '*.json')
+        if self.file and self.file.endswith(".json"):
+            self.settings.setValue("dataset", self.file)
+            self.sprite_editor_tab = ModeSelector(self.file)
+            self.central_widget.lay.addWidget(self.sprite_editor_tab)

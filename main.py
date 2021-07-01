@@ -13,7 +13,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     QCoreApplication.setOrganizationName("TestExamPractice")
     QCoreApplication.setOrganizationDomain("github.com/inmortalkaktus")
-    QCoreApplication.setApplicationName("Text Exam Practice")
+    QCoreApplication.setApplicationName("Test Exam Practice")
     mw = MainWidget()
     mw.show()
     sys.exit(app.exec_())

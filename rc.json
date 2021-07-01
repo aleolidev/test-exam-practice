@@ -1,0 +1,71 @@
+{
+    "Enero 2019": 
+    [
+        {
+            "Question": "El empleo de la tecnología de redes punto a punto para las redes WAN se caracteriza por,",
+            "Answers": [
+                "Su bajo coste económico de cableado frente a la tecnología de difusión.",
+                "La comunicación directa a nivel de enlace entre cualquier par de nodos de la red.",
+                "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
+                "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino."
+            ],
+            "Solution": 3
+        },
+        {
+            "Question": "La transmisión de información en una red LAN de difusión se caracteriza por,",
+            "Answers": [
+                "Una elevada tasa de error en el medio debido a la gran extensión geográfica de la red.",
+                "Precisar de un esquema de direccionamiento a nivel de enlace.",
+                "El empleo de algoritmos de encaminamiento para los equipos en los extremos de la red.",
+                "Precisar de un esquema de direccionamiento implícito."
+            ],
+            "Solution": 1
+        }
+    ],
+    "Enero 2020": 
+    [
+        {
+            "Question": "El empleo de la tecnología de redes punto a punto para las redes WAN se caracteriza por,",
+            "Answers": [
+                "Su bajo coste económico de cableado frente a la tecnología de difusión.",
+                "La comunicación directa a nivel de enlace entre cualquier par de nodos de la red.",
+                "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
+                "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino."
+            ],
+            "Solution": 3
+        },
+        {
+            "Question": "La transmisión de información en una red LAN de difusión se caracteriza por,",
+            "Answers": [
+                "Una elevada tasa de error en el medio debido a la gran extensión geográfica de la red.",
+                "Precisar de un esquema de direccionamiento a nivel de enlace.",
+                "El empleo de algoritmos de encaminamiento para los equipos en los extremos de la red.",
+                "Precisar de un esquema de direccionamiento implícito."
+            ],
+            "Solution": 1
+        }
+    ],
+    "Enero 2021": 
+    [
+        {
+            "Question": "El empleo de la tecnología de redes punto a punto para las redes WAN se caracteriza por,",
+            "Answers": [
+                "Su bajo coste económico de cableado frente a la tecnología de difusión.",
+                "La comunicación directa a nivel de enlace entre cualquier par de nodos de la red.",
+                "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
+                "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino."
+            ],
+            "Solution": 3
+        },
+        {
+            "Question": "La transmisión de información en una red LAN de difusión se caracteriza por,",
+            "Answers": [
+                "Una elevada tasa de error en el medio debido a la gran extensión geográfica de la red.",
+                "Precisar de un esquema de direccionamiento a nivel de enlace.",
+                "El empleo de algoritmos de encaminamiento para los equipos en los extremos de la red.",
+                "Precisar de un esquema de direccionamiento implícito."
+            ],
+            "Solution": 1
+        }
+    ]
+}
