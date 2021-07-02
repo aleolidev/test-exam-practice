@@ -1,6 +1,6 @@
 from frontend.central_widget import CentralWidget
 from PyQt5.QtWidgets import QButtonGroup, QHBoxLayout, QInputDialog
-from PyQt5.QtWidgets import QLabel, QMainWindow, QPushButton, QRadioButton, 
+from PyQt5.QtWidgets import QLabel, QMainWindow, QPushButton, QRadioButton
 from PyQt5.QtWidgets import QVBoxLayout, QWidget, QMessageBox
 
 import random
