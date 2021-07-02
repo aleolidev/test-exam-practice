@@ -1,0 +1,189 @@
+1. El empleo de la difusión en una red LAN permite,
+a) *El envío de información a todas las estaciones de la red transmitiendo un paquete.
+b) El envío de información a un grupo de estaciones de la red transmitiendo un paquete.
+c) El envío de información a una sola estación de la red transmitiendo más de un paquete.
+d) El envío de información a un grupo de estaciones de la red transmitiendo más de un
+paquete.
+2. El empleo de datagramas en una red de conmutación de paquetes se caracteriza por,
+a) En las redes de conmutación de paquetes no se emplean datagramas, se establecen circuitos
+físicos.
+b) Especificar en cada paquete los nodos intermedios que debe atravesar para alcanzar su
+destino.
+c) Determinar un camino a través de los nodos de la red para que los paquetes alcancen su
+destino.
+d) *Especificar en cada paquete el origen y el destino para que los nodos intermedios
+determinen un camino en la red para cada paquete transmitido.
+3. La interconexión de dos redes Ethernet conectadas a través de una WAN con arquitectura
+TCP/IP, ha de realizarse con,
+a) Un repetidor.
+b) Un puente.
+c) *Un router.
+d) Una pasarela.
+4. La comunicación horizontal en una arquitectura de red se caracteriza porque,
+a) Se establece entre las capas que son adyacentes en la arquitectura.
+b) Se establece entre la capa n y la capa par n-1 de la arquitectura.
+c) *Se establece entre las capas pares de la arquitectura.
+d) Se establece entre las capas n+1 y n-1 de la arquitectura.
+3
+5. En una arquitectura de red, la PDU de la capa n (que se envía a la entidad par de la capa
+n) incorpora en su campo de datos,
+a) La PDU de la capa n-1.
+b) La SDU de la capa n-1.
+c) La PCI de la capa n-1.
+d) *La PCI de la capa n+1.
+6. La fragmentación en un protocolo de la capa n se produce cuando,
+a) *La SDU de la capa n+1 no cabe dentro de la PDU de la capa n.
+b) La SDU de la capa n no cabe dentro de la PDU de la capa n.
+c) La SDU de la capa n+1 no cabe dentro de la PDU de la capa n-1.
+d) La SDU de la capa n no cabe dentro de la PDU de la capa n+1.
+7. En una red con arquitectura TCP/IP, ¿ qué nivel de la arquitectura permite realizar un
+control del flujo extremo a extremo ?
+a) Enlace.
+b) Red.
+c) *Transporte.
+d) Aplicación.
+8. El número máximo de conexiones TCP que puede establecer un equipo es,
+a) Mayor que el número máximo de conexiones UDP.
+b) Menor que el número máximo de conexiones UDP.
+c) *Limitado al rango de numeración de los puertos.
+d) Ilimitado, depende de la memoria disponible en el sistema.
+9. Si se desea transmitir información a través de un medio físico empleando una señal de
+pulsos con 4 niveles y a una velocidad de 90000 bps, el medio físico necesita un ancho de
+banda mínimo de,
+a) 30000 Hz.
+b) 45000 Hz.
+c) 90000 Hz.
+d) *22500 Hz.
+10. La codificación en banda base que no presenta problemas de sincronización en secuencias
+consecutivas de unos y ceros es,
+a) Codificación binaria sin retorno a cero bipolar.
+b) Codificación binaria sin retorno a cero unipolar.
+c) Codificación binaria con retorno a cero unipolar.
+d) *Codificación Manchester.
+4
+11. ¿ Qué tipo de modulación analógica permite transmitir información a mayor velocidad si
+se emplea un mismo ancho de banda ?
+a) Modulación ASK.
+b) Modulación PSK.
+c) Modulación FSK.
+d) *Modulación QPSK.
+12. Indica en cuál de los siguientes medios físicos la dispersión intramodal es mayor.
+a) Cable UTP categoría 3.
+b) Cable UTP categoría 5.
+c) *Fibra óptica monomodo.
+d) Fibra óptica multimodo.
+13. ¿ Qué tipo de medio físico no presenta diafonía (ruido cruzado) ?
+a) Cable UTP categoría 3.
+b) Cable UTP categoría 5.
+c) Cable STP.
+d) *Fibra óptica multimodo.
+14. El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC)
+NO afecta a,
+a) El número de bits del resto en la operación de división de polinomios.
+b) La cantidad de información redundante en el paquete de información.
+c) La cantidad de errores en ráfaga que pueden detectarse.
+d) *La frecuencia con que se producen errores en el medio físico.
+15. En un protocolo de ventana deslizante de envío continuo con repetición selectiva es cierto
+que,
+a) *El emisor puede enviar paquetes que podrían ser rechazados por el receptor.
+b) El receptor puede aceptar paquetes con secuencias que están fuera de su ventana de
+recepción.
+c) La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del
+protocolo.
+d) La ventana del receptor sólo permite recibir una única trama de datos.
+16. La pérdida de un paquete de datos en un protocolo de parada y espera sin numeración de
+ACK’s provoca,
+a) Un error de duplicación.
+b) Un error de sincronización.
+c) El reenvío indefinido del mismo paquete al receptor.
+d) *El reenvío de la trama perdida.
+5
+17. Sobre las normativas Ethernet 802.3 y Ethernet DIX (Ethernet II), es cierto que
+a) *El tamaño máximo de un paquete IP a incorporar en el campo de datos es diferente.
+b) Ambas emplean el mecanismo CSMA/CD en el modo full-duplex.
+c) Ethernet 802.3 detecta colisiones y Ethernet DIX no.
+d) La velocidad máxima de transmisión en Ethernet DIX es mayor que en Ethernet 802.3.
+18. El número máximo de conmutadores Ethernet que podemos conectar en cascada está
+limitador por:
+a) *En modo full-duplex la única limitación es el número máximo de máquinas que no
+provoquen congestión.
+b) En modo full-duplex la limitación está en una distancia máxima de 2.5 Km entre los
+conmutadores más alejados.
+c) En modo half-duplex la limitación está en el número de colisiones que se produzcan.
+d) En modo half-duplex la limitación son 254 segmentos conectados en cascada.
+19. Indica en qué normativa Ethernet no se incorpora el campo Preámbulo en la cabecera
+Ethernet.
+a) Ethernet 100baseFX.
+b) Ethernet 100baseTX.
+c) Ethernet 10baseT.
+d) *Todas las normativas Ethernet incorporan el campo Préambulo en la cabecera Ethernet.
+20. Sobre el funcionamiento de un conmutador Ethernet VLAN es cierto que,
+a) *Los paquetes de difusión de una VLAN son reenviados a todos los puertos de la misma
+VLAN.
+b) Los paquetes de difusión de una VLAN son reenviados a todos los puertos del conmutador
+VLAN.
+c) Los paquetes de difusión de una VLAN son reenviados sólo a los puertos de acceso del
+conmutador.
+d) Los paquetes de difusión de una VLAN nunca son reenviados a un puerto troncal.
+21. Indica en qué normativa Ethernet NO se emplean bits de sincronización adicionales a los
+datos en la trama Ethernet,
+a) *Ethernet 10BaseT.
+b) Ethernet 100BaseTX.
+c) Ethernet 100BaseFX.
+d) Ethernet 1000BaseLX.
+22. ¿ Qué mecanismo de seguridad Wi-Fi no puede realizar una autenticación basada en una
+contraseña compartida PSK ?
+a) WEP.
+b) WPA-Personal.
+c) WPA2-Personal.
+d) *WPA2-Enterprise.
+6
+23. ¿ Qué algoritmo de cifrado emplea WPA2 ?
+a) RSA.
+b) TKIP.
+c) IPSEC.
+d) *AES.
+24. ¿ Qué mecanismo de autenticación WiFi permite proporcionar una clave de cifrado MK
+empleando un servidor RADIUS ?
+a) TKIP.
+b) EAP/TLS.
+c) *PEAP.
+d) CHAP.
+25. ¿ Qué factores NO provocan un aumento de la congestión en una red TCP/IP ?
+a) Valores de MTU diferentes en toda la red.
+b) Tablas de encaminamiento muy complejas.
+c) *Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.
+d) El empleo de protocolos sin control del flujo como UDP.
+26. Sobre el protocolo de encaminamiento BGP es cierto que,
+a) Emplea el algoritmo de Dijkstra para obtener la solución de encaminamiento en la red.
+b) Intercambia información entre los routers empleando la multidifusión.
+c) Utiliza conexiones UDP para el envío de los mensajes BGP en la red.
+d) *Los routers BGP disponen de un conocimiento global de los SA de Internet.
+27. Si un paquete IP es enviado a la dirección 224.0.0.255 es cierto que,
+a) El paquete es procesado por todos los equipos de todos los grupos de multidifusión de
+Internet.
+b) La dirección IP de destino se cambia por 224.255.255.255 para que llegue a todos los
+equipos de la red donde es transmitido.
+c) Los routers que reciben este paquete lo envían a todos los routers multicasting de Internet.
+d) *El paquete sólo es procesado por los equipos que pertenecen a este grupo de multidifusión.
+28. Sobre el protocolo de encaminamiento RIP es cierto que,
+a) Si un interfaz de un router RIP falla, RIP informa del fallo al resto de routers RIP.
+b) *RIP informa de todos los destinos que conoce a todos los routers de los segmentos a los
+que está conectado.
+c) Si RIP detecta una métrica mayor a un destino modifica el valor de la métrica para
+actualizarla.
+d) Un mensaje RIP con información de destinos es reenviado a todos los segmentos de red
+existentes.
+7
+29. Sobre el protocolo IPv6 es cierto que,
+a) Tiene un tamaño de cabecera fijo de 40 bytes.
+b) Un paquete puede circular indefinidamente en una red IPv6.
+c) *No existen direcciones de difusión IPv6.
+d) Una dirección IPv6 de un dispositivo es la misma independientemente del operador de red
+al que se encuentre conectado.
+30. Sobre el control de flujo de datos en el protocolo TCP es cierto que,
+a) El elemento emisor de TCP tiene un tamaño de ventana fijo negociado en el establecimiento
+de la conexión.
+b) El tamaño de la ventana de un receptor TCP disminuye si aumenta el retardo en la llegada
+de ACK’s.
+c) El tamaño
