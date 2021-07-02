@@ -1,10 +1,8 @@
-from PyQt5.QtGui import QImage
 from frontend.central_widget import CentralWidget
-from PyQt5.QtWidgets import QButtonGroup, QHBoxLayout, QInputDialog, QLabel, QMainWindow, QPushButton, QRadioButton, QVBoxLayout, QWidget, QMessageBox
+from PyQt5.QtWidgets import QButtonGroup, QHBoxLayout, QInputDialog
+from PyQt5.QtWidgets import QLabel, QMainWindow, QPushButton, QRadioButton
+from PyQt5.QtWidgets import QVBoxLayout, QWidget, QMessageBox
 
-from frontend.test_widget import TestWidget
-
-import numpy as np
 import random
 import json
 
